@@ -6,10 +6,10 @@ const Signin = ({ providers }) => {
 	return (
 		<>
 			<div className='text-center'>
-				{Object.values(providers).map((provider) => {
+				{Object.values(providers).map((provider, index) => {
 					return (
 						<>
-							<div className='mt-10' key={provider.id}>
+							<div className='mt-10' key={index}>
 								<Image
 									src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png'
 									width={450}
