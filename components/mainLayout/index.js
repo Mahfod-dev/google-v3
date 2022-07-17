@@ -8,9 +8,10 @@ const MainLayout = () => {
 	const router = useRouter();
 
 	const handleSearch = (e) => {
+		e.preventDefault();
 		const term = searchInput.current.value;
 		if (!term.trim()) return;
-		router.push(`/search?/term=${term.trim()}`);
+		router.push(`/search?term=${term.trim()}`);
 	};
 
 	return (
