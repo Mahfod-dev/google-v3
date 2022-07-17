@@ -11,8 +11,7 @@ const Signin = ({ providers }) => {
 						<>
 							<div className='mt-10' key={provider.id}>
 								<Image
-									src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/640px-Google_Images_2015_logo.svg.png'
-									alt='google-logo'
+									src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png'
 									width={450}
 									height={154}
 									layout='intrinsic'

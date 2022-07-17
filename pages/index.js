@@ -1,5 +1,9 @@
-import Header from '../components/navigation/Header';
+import MainLayout from '../components/mainLayout';
 
 export default function Home() {
-	return <>{/* <Header /> */}</>;
+	return (
+		<>
+			<MainLayout />
+		</>
+	);
 }
