@@ -11,7 +11,7 @@ const MainLayout = () => {
 		e.preventDefault();
 		const term = searchInput.current.value;
 		if (!term.trim()) return;
-		router.push(`/search?term=${term.trim()}`);
+		router.push(`/search?term=${term.trim()}&searchType=`);
 	};
 
 	return (
