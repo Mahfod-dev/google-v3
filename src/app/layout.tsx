@@ -1,5 +1,8 @@
 import { Header } from '@/components/Header'
+
+
 import './globals.css'
+import 'react-toastify/dist/ReactToastify.css';
 
 export const metadata = {
   title: 'Create Next App',
@@ -19,6 +22,8 @@ export default function RootLayout({
         <Header/>
         {children}
         
+
+ 
         </body>
     </html>
   )
